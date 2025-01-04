@@ -1,0 +1,71 @@
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    row-gap: 15px;
+    flex-wrap: wrap;
+    column-gap: 15px;
+}
+
+.filter_main {
+    display: flex;
+    width: 80%;
+    position: relative;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.entry {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.filter_heading {
+    font-size: 35px;
+    text-align: center;
+    width: 100%;
+    font-weight: bolder;
+}
+
+.web_name {
+    font-size: 3rem;
+    color: black;
+    font-family: 'Merienda', cursive;
+    animation-name: glow;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes glow {
+    from {
+        text-shadow: 0px 0px 5px #fff, 0px 0px 5px #614ad3;
+    }
+
+    to {
+        text-shadow: 0px 0px 20px #fff, 0px 0px 20px #614ad3;
+    }
+}
+
+.user_style {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 20px;
+    font-size: 20px;
+}
+
+.data {
+    font-size: 40px;
+    margin-top: 30px;
+}
