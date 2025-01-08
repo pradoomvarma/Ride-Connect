@@ -1,13 +1,12 @@
 # Ride-Connect Platform
 
-A React-based platform for users to share their cab and connect with others on similar journeys. The application allows users to search for cab by location and journey date, making it easier to coordinate shared rides.
+A React-based platform for users to share their cab and connect with others on similar journeys. The application allows users to search for sharing a cab by location and journey date, making it easier to coordinate shared rides.
 
 ---
 
 ## Features
 
 - **User-friendly Interface**: Developed using React for a seamless user experience.
-- **Filtering**: Enables users to search for journeys by location and date.
 - **Secure Communication**: Integrated with Nodemailer for email verification.
 - **Scalable Backend**: Built with Node.js, Express.js, and MongoDB.
 
